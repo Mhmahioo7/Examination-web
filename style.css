@@ -1,0 +1,33 @@
+.hero-section {
+    display: flex;
+}
+
+.hero-section img {
+    width: 70%;
+    position: relative;
+    right: -60px;
+    top: -85px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 75px;
+    margin-top: 65px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(154, 234, 248), rgb(251, 107, 182));
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 3px;
+    color: azure;
+}
