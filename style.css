@@ -5,22 +5,23 @@
 .hero-section img {
     width: 70%;
     position: relative;
-    right: -60px;
+    right: -100px;
     top: -85px;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
     margin-left: 75px;
-    margin-top: 65px;
+    margin-top: 85px;
+    margin-right: 45px;
 }
 
 .link-button {
@@ -30,4 +31,118 @@ body {
     font-weight: 400;
     padding: 3px;
     color: azure;
+}
+
+.section-edit2 {
+    display: flex;
+    margin-top: 75px;
+}
+
+.hero-section2 {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 90px;
+}
+
+.hero-section2 img {
+    width: 50%;
+
+}
+
+.div-edit1 {
+    width: 50%;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(252, 179, 247);
+}
+
+.div-edit2 {
+    width: 50%;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(197, 252, 172);
+}
+
+.div-edit3 {
+    width: 50%;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(125, 194, 250);
+}
+
+.coding-section {
+    display: flex;
+    position: relative;
+}
+
+.coding-section img {
+    width: 70%;
+}
+
+#coding-img {
+    position: relative;
+    z-index: 1;
+}
+
+#shape-1 {
+    position: relative;
+    top: -250px;
+    left: -62px;
+    width: 210px;
+    z-index: 2;
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(117, 152, 250), rgb(247, 110, 210));
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 3px;
+    color: azure;
+}
+
+.project-section {
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+.project-section img {
+    width: 80%;
+    position: relative;
+    left: 46px;
+    z-index: 1;
+}
+
+.pro-div1 {
+    padding-right: 50px;
+}
+
+.pro-div2 {
+    padding-left: 40px;
+}
+
+#porject-img2 {
+    position: relative;
+    width: 47%;
+    left: 290px;
+    top: -130px;
+    z-index: 2;
+}
+
+.section-covid {
+    display: flex;
+}
+
+.section-covid img {
+    width: 70%;
+    position: relative;
+    right: -90px;
+    top: -190px;
 }
